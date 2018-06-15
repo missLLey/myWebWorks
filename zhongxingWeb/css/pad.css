@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/* bar */
+.bar{ display: none;}
+/* nav */
+.nav{ height: 125px;}
+.nav .logo{ height: 125px; line-height: 125px;}
+.logoRight ul{ display: none;}
+.nav .logo img{ vertical-align: middle;}
+
+.logoRight{ width: 40%; margin-right: 2%;}
+.searchBox .search img:nth-of-type(1){ display: none;}
+.searchBox .search img:nth-of-type(2){ display: inline-block; height: 40px; width: auto;}
+.logoRight .search{ margin-top: 45px;}
+.searchBox .mNav{ display: block; float: right; margin-top: 36px;}
+.searchBox .mNav img{ height: 35px; width: auto;}
+
+/* news */
+.news{ height: auto;}
+.newsIn{ height: auto; line-height: normal; padding: 10px 0; overflow: hidden;}
+.newsList h3{ width: auto; height:auto; background-size: auto 100%; padding-right: 20px;}
+.newsIn .newsList{ margin-left: 4.5%;}
+.newsIn .arr{ margin-right: 5.4%;}
+
+/* subNav */
+.subNav dl{ font-size: 80%;}
+
+/* footer */
+.footer .p1{ width: 100%;}
+.footer .p2{ width: 100%;text-indent: 1em;}
+.footer{ height: auto; line-height: 3em; overflow: hidden;}
+
+
+
+
+
+
+

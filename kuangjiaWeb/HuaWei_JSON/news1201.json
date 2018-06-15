@@ -1,0 +1,17 @@
+{
+  "id": 1201,
+  "code": 200,
+  "total": "1",
+  "data": {
+    "list":
+      {
+        "id": "2816",
+        "title": "如何通过视频覆盖打造最佳移动宽带网络",
+        "desc": "创新的Video Coverage网络规划方法论，将如何帮助运营商构建高清视频体验无处不在的MBB网络？",
+        "pubdate": "2016/12/10",
+        "img": "uploads/images01.jpg",
+        "url": "http://www.huawei.com/cn/news/2016/3/Huawei-AAU-Solution",
+        "date": "12-10"
+      }
+  }
+}

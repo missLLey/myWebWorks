@@ -1,0 +1,63 @@
+{
+  "id": 1205,
+  "code": 200,
+  "total": "6",
+  "data": {
+    "list": [
+      {
+        "id": "2916",
+        "title": "谈华为的管道战略",
+        "desc": "华为执行副总裁徐直军：华为致力于通过提升管道容量、增强管道使能、优化管道管理，使管道更宽、管道覆盖更广、客户体验更好",
+        "pubdate": "2016/12/10",
+        "img": "uploads/images01.jpg",
+        "url": "http://www.huawei.com/cn/news/2016/3/Huawei-AAU-Solution",
+        "date": "12-10"
+      },
+      {
+        "id": "2917",
+        "title": "中国移动点亮TD-LTE市场",
+        "desc": "从世博会TD-LTE业务演示，到杭州TD-LTE试验网发布，到全球首次LTE TDD/FDD漫游互通，中国移动迈出了TD-LTE的坚定步伐。",
+        "img": "uploads/images02.jpg",
+        "pubdate": "2016/12/10",
+        "url": "http://www.huawei.com/cn/news/2016/3/Huawei-AAU-Solution",
+        "date": "12-10"
+      },
+      {
+        "id": "2918",
+        "title": "《营赢》第14期",
+        "desc": "本期封面：Bharti Airtel的LTE网络已正式商用，对印度而言，LTE是否行之过早？其网络业务总监Jagbir Singh并不这么认为。",
+        "img": "uploads/images03.jpg",
+        "pubdate": "2016/12/10",
+        "url": "http://www.huawei.com/cn/news/2016/3/Huawei-AAU-Solution",
+        "date": "12-10"
+      },
+      {
+        "id": "2919",
+        "title": "四核芯3D见证不凡时刻",
+        "desc": "极速四核、全高清分辨率、杜比5.1环绕音效……华为“中国芯”的强悍性能令人叹为观止。",
+        "img": "uploads/images04.jpg",
+        "pubdate": "2016/12/10",
+        "url": "http://www.huawei.com/cn/news/2016/3/Huawei-AAU-Solution",
+        "date": "12-10"
+      },
+      {
+        "id": "2920",
+        "title": "互联网视频，竞还是合？",
+        "desc": "优酷土豆无线运营部高级总监费溢群分享了在互联网视频领域，其与运营商、华为间的三方合作模式。",
+        "img": "uploads/images05.jpg",
+        "pubdate": "2016/12/10",
+        "url": "http://www.huawei.com/cn/news/2016/3/Huawei-AAU-Solution",
+        "date": "12-10"
+      },
+      {
+        "id": "2921",
+        "title": "统一存储，大道智简",
+        "desc": "OceanStor T系列统一存储产品，搭载Smart系列软件，实现完美统一管理，按需自如存取。",
+        "img": "uploads/images06.jpg",
+        "pubdate": "2016/12/10",
+        "url": "http://www.huawei.com/cn/news/2016/3/Huawei-AAU-Solution",
+        "date": "12-10"
+      }
+    ]
+  }
+}

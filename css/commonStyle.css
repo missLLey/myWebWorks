@@ -1,0 +1,110 @@
+html,body,div,ul,li,button,p,span,header,section,aside,footer,input,a,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    color: #6e4d2c;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    letter-spacing: 5px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #0e0e20;
+}
+
+html,body{
+    width: 100%;
+    height: 160%;
+    background: #eeeeee;
+}
+#content{
+    width: 86%;
+    height: 100%;
+    margin: 0 auto;
+    background: url("../img/background.png") no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+#myPhoto{
+    padding-left: 77px;
+    margin-top: 121px;
+    position: relative;
+}
+
+#myPhoto div{
+    position: absolute;
+    left: 270px;
+    top: 10px;
+}
+#myPhoto p{
+    text-align: left;
+    display: inline;
+    line-height: 60px;
+}
+#education,#zhengshu{
+    height: 180px;
+    padding-left: 77px;
+    overflow: hidden;
+}
+.common{
+    width: 95%;
+    padding-left: 77px;
+    overflow: hidden;
+}
+.common>p{
+    font-size: 22px;
+    margin-top: 25px;
+}
+.common>p span{
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.common>div p{
+    margin-top: 5px;
+    line-height: 38px;
+    font-size: 17px;
+}
+#zhengshu>p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+#zhengshu>div p{
+    margin-top: 5px;
+    line-height: 24px;
+}
+#jineng>p{
+    margin-top: 15px;
+    line-height: 35px;
+}
+#jineng{
+    height: 340px;
+}
+#jineng>div p{
+    margin-top: 2px;
+    line-height: 26px;
+}
+#Demo{
+    height: 160px;
+}
+#Demo>p{
+    margin-top: 10px;
+}
+#Demo>div{
+    margin-top: 20px;
+}
+#Demo>div a{
+    margin-right: 35px;
+    line-height: 30px;
+}
+#mySelf>p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+html{ font-size: 100px;}
+body{ font-size: 0.12rem; color:#787878; background: #F0EFED;}
+a{ color:#787878;}
+@media (min-width:620px){
+	html{ font-size: 150px;}
+}
+
+/* header分区 */
+.header{ height: 0.51rem; background: #06C1AE; border-bottom: 1px solid #11A898; display: flex;}
+.address{ width: 0.67rem; height: 0.5rem; order:-1; font-size: 0.16rem; text-align: center; line-height: 0.5rem;}
+.address a{ color:#fff; padding-right: 0.16rem; position: relative;}
+.address a:after{ content:""; width: 0.1rem; height: 0.1rem; border-right: 1px solid #fff; border-bottom: 1px solid #fff; position: absolute; right: 0; top: 0.04rem; transform: scaleX(0.8) rotate(45deg) ;}
+.user{ width: 0.5rem; height: 0.5rem; text-align: center;}
+.user a{color: #fff;}
+.icon-wode{ display: block; font-size: 0.2rem; margin-top: 0.08rem;}
+.search{ flex:1; position: relative;}
+.icon-icon{ position: absolute; font-size: 0.16rem; left: 0.1rem; top: 0.18rem; color:#fff;}
+.search input{ width: 100%; height: 0.32rem; background: #05A494; margin-top: 0.1rem; font-size: 0.14rem; text-indent:0.3rem; color:#55D0C3; border-radius: 0.03rem;}
+
+/* banner分区 */
+.banner a{ display: block; width: 78%; margin: 0 auto; max-width: 640px; min-width: 320px;}
+ .banner img{ display:block;}
+ 
+/* nav分区 */
+.nav{ height: 1.8rem; background: #FFFFFF; border-bottom: 1px solid #ECE9E4; }
+.nav ul{ overflow: hidden;}
+.nav ul li{ width: 20%; height: 0.7rem; margin-top: 0.1rem; float: left;}
+.nav .iconfont{ display: block; width: 0.4rem; height: 0.4rem; background: #FD9D21; margin: 0 auto; text-align: center; line-height: 0.4rem; border-radius: 50%; color: #fff; font-size: 0.22rem;}
+.nav span{ display: block; text-align: center; height: 0.2rem; line-height: 0.2rem;}
+.nav .icon-Artboard{ font-size: 0.4rem; background: #FF6767;}
+.nav .icon-jiudian{ background: #8A90FA;}
+.nav .icon-xiuxianyule{ background: #FED030;}
+.nav .icon-icon-test{ background: #FD9D21;}
+.nav .icon-ktv{ background: #FED030;}
+.nav .icon-zhoubianyou{ background: #4DC6EE;}
+.nav .icon-liren{ background: #FF80C2;}
+.nav .icon-xiaochikuaican{ background: #FD9D21;}
+.nav .icon-huochepiao{ background: #599EEC;}
+.nav ol{ width: 0.32rem; height: 0.1rem; margin: 0 auto;}
+.nav ol li{ width: 0.1rem; height: 0.1rem; background: #06C1AE; border-radius: 50%; float: left;}
+.nav ol li:nth-of-type(2){ float: right; background: #F0EFED;}
+
+/* con01分区 */
+.con01{ background: #FFFFFF; margin-top: 0.1rem; padding: 0.05rem; border-top: 1px solid #ECE9E4; border-bottom: 1px solid #ECE9E4;}
+.con01 ul{ overflow: hidden;}
+.con01 ul li{ width: 33.33%; float: left;}
+.con01 ul li:nth-of-type(2){ border-left: 1px solid #F0EEE9; border-right: 1px solid #F0EEE9;}
+.con01 h3,.con01 p{ width: 0.85rem; margin: 0 auto;}
+.con01 h3{ font-size: 0.14rem; height: 0.36rem; line-height: 0.26rem;}
+.con01 ul li img{ display: block; width: 65%; margin: 0 auto; max-width: 160px;}
+.con01 ul li:nth-of-type(2) img{ width: 85%; max-width: 180px; }
+.con01 ul li:nth-of-type(1) h3{ color: #55A40F;}
+.con01 ul li:nth-of-type(2) h3{ color: #FF3F0D;}
+.con01 ul li:nth-of-type(3) h3{ color: #F858AB;}
+
+/* con02分区 */
+.con02{ padding-left: 0.1rem; margin-top: 0.1rem; background: #FFFFFF; border-top: 1px solid #ECE9E4; border-bottom: 1px solid #ECE9E4;}
+.con02 h2{ height: 0.36rem; line-height: 0.36rem; font-size: 0.16rem; font-weight: normal; border-bottom: 1px solid #f0eee9;}
+.con02 dl{ padding: 0.1rem; padding-left: 0; border-bottom: 1px solid #f0eee9; position: relative; height: 1rem;}
+.con02 dt{ width: 0.9rem; height: 0.82rem; overflow: hidden; position: absolute; left: 0;top: 0.1rem;}
+.con02 dd{ padding-left: 1rem;}
+.con02 dd h3{ font-size: 0.14rem; font-weight: normal; color: #6e6e6e; line-height: 0.24rem;}
+.con02 .desc{ font-size: 0.12rem; color: #666; line-height: 0.22rem; height: 0.38rem;}
+.price{ overflow: hidden;}
+.price-l{ float: left;}
+.price-l .color{ font-size:0.14rem; color: #08c1af;}
+.price-l .color strong{ font-size:0.18rem;}
+.price-r{ float: right; }
+.more{ height: 0.4rem; line-height: 0.4rem; display:block; color: #11c4b1;}
+.more span:nth-of-type(1){ float: left;}
+.more span:nth-of-type(2){ float: right; margin-right: 0.1rem; font-size: 0.2rem;}
+
+/* footer分区 */
+.footer{ height: 2.4rem; padding: 0.15rem 0.1rem 0;}
+.footer a{ color: #6cd5c9;}
+.foot-con1{ height: 0.55rem;}
+.foot-con1 .a1,.foot-con1 .a2{ float: left; width: 0.6rem; height: 0.3rem; border: 1px solid #06c1ae; border-radius: 0.03rem; text-align: center; line-height: 0.3rem; margin-right: 0.1rem;}
+.foot-con1 .city{ float: right;}
+.city a{ display: inline-block; width: 0.9rem; height: 0.3rem; border: 1px solid #06c1ae; border-radius: 0.03rem; text-align: center; line-height: 0.3rem;}
+
+.foot-nav{ height: 0.38rem; display: flex;}
+.foot-nav li{ float: left; line-height: 0.17rem; padding: 0 0.15rem; text-align: center; flex:1; position: relative;}
+.foot-nav li:nth-of-type(3){ flex:1.3;}
+.foot-nav li:nth-of-type(3):before{ content:""; width: 0.02rem; height: 0.12rem; background: #a9a9a8; position: absolute; left: 0; top: 0.02rem;}
+.foot-nav li:nth-of-type(3):after{ content:""; width: 0.02rem; height: 0.12rem; background: #a9a9a8; position: absolute; right: 0; top: 0.02rem;}
+.foot-nav li:nth-of-type(1):after{ content:""; width: 0.01rem; height: 0.12rem; background: #666; position: absolute; right: 0; top: 0.02rem;}
+.foot-nav li:nth-of-type(5):before{ content:""; width: 0.01rem; height: 0.12rem; background: #666; position: absolute; left: 0; top: 0.02rem;}
+.link{ height: 0.35rem; text-align: center;}
+.link a:nth-of-type(2){ margin:0 0.2rem;}
+.copy{ border-top: 1px solid #c9c9c8; text-align: center;} 
+.copy span{ background: #f0efed; padding: 0 0.1rem; position: relative; top:-0.1rem;}
+
+
+
+

@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>华为，不仅仅是世界500强！</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"  />
+<meta name="keywords" content="华为首页,华为官网" />
+<meta name="description" content="华为，不仅仅是世界500强！" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<script src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$.getJSON('news1201.json',function(data){
+			//console.log(data.data.list.title)
+			var news = '';
+			if(data.code == 200){	
+				news = '<a href="'+ data.data.list.url +'">'+ data.data.list.title +'</a>';				
+			}
+			$(".news_l").append(news)
+		});
+		
+		$.getJSON('news1205.json',function(data){
+			var newslist = '';
+			if(data.code == 200){				
+				$.each(data.data.list, function(index,val) {
+					newslist += '<dl>'
+    							+'<dt>'
+    								+'<a href="'+ val.url +'"><img src="'+ val.img +'" width="110" height="137" alt=""/></a>'
+    							+'</dt>'
+    							+'<dd>'
+					            	+'<h3><a href="'+ val.url +'">'+ val.title +'</a></h3>'
+					                +'<p>'+ val.desc +'</p>'
+            					+'</dd>'
+    						+'</dl>';
+					
+				});			
+			}
+    		$('.con_in').html(newslist);
+			$('.con_in dl:eq(2),.con_in dl:eq(5)').addClass("nomargin")
+		});
+	})
+</script>
+</head>
+
+<body>
+<div id="header">
+	<div class="header_in">
+    	<h1 class="logo">
+   	    	<a href="index.html"><img src="images/logo.jpg" width="257" height="43" alt=""/></a>
+        </h1>
+        <div class="logo_r">
+        	<p><a href="#">Worldwide</a> | <a href="#">登录</a> | <a href="#">个性化服务</a> | <a href="#">心声社区</a></p>
+            <div class="search">
+            	<input class="txt" type="text" />
+                <input class="sub" type="submit" value="" />
+            </div>
+        </div>
+    </div>
+</div>
+<div id="nav">
+	<div class="nav_in">
+    	<ul>
+    		<li><a href="list.html">行业洞察</a></li>
+    		<li><a href="list.html">方案与产品</a></li>
+    		<li><a href="list.html">技术支持</a></li>
+    		<li><a href="list.html">关于华为</a></li>
+    		<li><a href="list.html">加入华为</a></li>
+    		<li><a href="list.html">华为商城</a></li>
+    	</ul>
+    </div>
+</div>
+<div id="banner">
+	<a href="#"></a>
+</div>
+<div id="news">
+	<p class="news_l"><strong>新闻：</strong></p>
+	<div class="icons">
+    	<strong>关注我们:</strong>
+        <div class="icons_r">
+        	<a href="#"></a>
+        	<a href="#" class="a2"></a>
+        	<a href="#" class="a3"></a>
+        	<a href="#" class="a4"></a>
+        </div>
+    </div>
+</div>
+<div id="content">
+	<div class="con_in">
+    </div>
+</div>
+<div id="footer">
+	<div class="footer_in">
+        <div class="subnav">
+       	  <dl>
+        		<dt>按访问者</dt>
+        		<dd>
+                	<ul>
+                		<li><a href="#">运营商</a></li>
+                		<li><a href="#">企业用户</a></li>
+                		<li><a href="#">最终消费者</a></li>
+                		<li><a href="#">合作伙伴</a></li>
+                		<li><a href="#">新闻媒体</a></li>
+                		<li><a href="#">求职者</a></li>
+                	</ul>
+                </dd>
+        	</dl>
+       	  <dl>
+        		<dt>按访问者</dt>
+        		<dd>
+                	<ul>
+                		<li><a href="#">运营商</a></li>
+                		<li><a href="#">企业用户</a></li>
+                		<li><a href="#">最终消费者</a></li>
+                		<li><a href="#">合作伙伴</a></li>
+                		<li><a href="#">新闻媒体</a></li>
+                		<li><a href="#">求职者</a></li>
+                	</ul>
+                </dd>
+        	</dl>
+       	  <dl>
+        		<dt>按访问者</dt>
+        		<dd>
+                	<ul>
+                		<li><a href="#">运营商</a></li>
+                		<li><a href="#">企业用户</a></li>
+                		<li><a href="#">最终消费者</a></li>
+                		<li><a href="#">合作伙伴</a></li>
+                		<li><a href="#">新闻媒体</a></li>
+                		<li><a href="#">求职者</a></li>
+                	</ul>
+                </dd>
+        	</dl>
+       	  <dl>
+        		<dt>按访问者</dt>
+        		<dd>
+                	<ul>
+                		<li><a href="#">运营商</a></li>
+                		<li><a href="#">企业用户</a></li>
+                		<li><a href="#">最终消费者</a></li>
+                		<li><a href="#">合作伙伴</a></li>
+                		<li><a href="#">新闻媒体</a></li>
+                		<li><a href="#">求职者</a></li>
+                	</ul>
+                </dd>
+        	</dl>
+       	  <dl>
+        		<dt>按访问者</dt>
+        		<dd>
+                	<ul>
+                		<li><a href="#">运营商</a></li>
+                		<li><a href="#">企业用户</a></li>
+                		<li><a href="#">最终消费者</a></li>
+                		<li><a href="#">合作伙伴</a></li>
+                		<li><a href="#">新闻媒体</a></li>
+                		<li><a href="#">求职者</a></li>
+                	</ul>
+                </dd>
+        	</dl>
+      </div>
+        <p class="copyright">
+        	<a href="#">法律声明</a> | <a href="#">隐私保护</a> | <a href="#">联系我们</a> | <a class="a1" href="#">网站地图</a>           版权所有 &copy; 华为技术有限公司 1998-2012。 保留一切权利。粤A2-20044005号
+        </p>
+        <span class="chengxin">
+       		<a href="#"><img src="images/chengxin.jpg" width="112" height="41" alt=""/></a>
+        </span>
+    </div>
+
+
+
+
+</div>
+</body>
+</html>

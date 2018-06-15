@@ -1,0 +1,256 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,p,a,dl,dt,dd,ol,ul,h1,h2,h3,h4,input,img,textarea{padding:0; margin:0;}
+li{list-style:none;}
+img{border:0;}
+body{color:#606060; font-size:12px; font-family:"微软雅黑";}
+a{color:#606060; text-decoration:none;}
+a:hover{color:#fff;}
+
+/* header */
+#header{height:90px; background:#313131;}
+.headerIn{width:1000px; height:90px; margin:0 auto;}
+.logo{width:144px; height:40px; float:left; margin-top:25px;}
+.nav{width:602px; height:90px; float:right; line-height:90px;}
+.nav ul li{float:left; font-size:16px; margin-right:50px;}
+.nav li a{color:#979797;}
+.nav li a:hover{color:#fff;}
+.nav ul .last{margin:0;}
+.nav .current a{color:#fff;}
+
+/* banner */
+#banner{height:560px;}
+.bannerImg{height:481px;  position:relative; width: 100%; overflow: hidden;}
+.bannerImg ul{ width: 300%; height: 481px; position: absolute;}
+.bannerImg li{ width:33.333%; height: 481px; float: left;}
+.bannerImg a{height:481px;  width:100%; display: block; }
+.turn{width:53px; height:12px; margin:0 auto; margin-top:15px;}
+.turn ol li{width:12px; height:12px; background:url(../images/dot.jpg); float:left; margin-right:8px; cursor:pointer;}
+.turn ol .last{margin:0;}
+.turn ol .current{ background-position:0 -12px;}
+/* contain */
+#contain{width:1000px; height:745px; margin:0 auto; overflow:hidden;}
+.conUp{height:299px; border-bottom: 1px solid #ccc;}
+.conUp dl{width:225px; height:299px; float:left; margin-right:33px;}
+.conUp dl dt{width:225px; height:127px;}
+.conUp dd h3{ height:60px; line-height:60px; color:#000; font-size:24px; font-weight:normal;}
+.conUp dd p{font-size:14px; line-height:20px;}
+.conUp .last{margin:0;}
+.conDown{height:415px; padding-top:35px;}
+.conDown dl{width:483px; height:415px; }
+.conDown dl dt{width:483px; height:219px;}
+
+/* contact */
+#contact{height:100px; background:#e5e5e5;}
+.contactIn{width:1000px; height:100px; margin:0 auto;}
+.contactIn p{height:100px; line-height:100px; float:left; color:#313131; font-size:14px; background:url(../images/icons.jpg) no-repeat 0 0;}
+.contactIn .qq{width:338px; padding-left:40px;}
+.contactIn .tel{width:315px; background-position:0 -100px; padding-left:60px; line-height:1em; padding-top:26px; height:74px;}
+.contactIn .tel .num{font-size:26px; color:#000; display:block;}
+.contactIn .tel .time{width:178px; height:19px; background:url(../images/time_bg.jpg); display:block; text-align:center; color:#fff; line-height:19px; font-size:12px;}
+.contactIn .email{width:206px;  background-position:0 -200px; padding-left:40px;}
+
+/* footer */
+#footer{height:358px; background:#313131;}
+.subNav{height:246px; border-bottom: 1px solid #2b2b2b;}
+.subNavIn{width:1000px; height:184px; margin:0 auto; padding-top:62px; position:relative;}
+.subNavIn .top{width:32px; height:26px; background:url(../images/top.jpg); position:absolute; right:0; top:0; cursor:pointer; }
+.subNavIn dl{width:183px; height:184px; float:left;}
+.subNavIn dl dt{height:32px; color:#fff; font-size:18px;}
+.subNavIn dd li{line-height:28px; background:url(../images/arrow.jpg) no-repeat left center; padding-left:15px;}
+.subNavIn li a{color:#787878;}
+.subNavIn li a:hover{color:#fff;}
+.subNavIn .last{width:85px;}
+.subNavIn .ewm dt{padding-left:8px; height:40px;}
+.subNavIn .ewm span{ display:block; padding:22px 0 0 15px;}
+.footerDwon{width:1000px; height:86px; margin:0 auto; padding-top:26px;}
+.footerLogo{float:left; width:143px; height:40px;}
+.copyRight{float:right; width:680px; height:85px; text-align:right;}
+.copyRight p{color:#b3b3b3; line-height:30px;}
+
+
+
+/* listCon */
+#listCon{ background:url(../images/list_line.jpg) repeat-x left top;}
+.listConIn{width:1000px; margin:0 auto; padding-top:64px;}
+.listConNav{height:40px; padding-bottom:8px;}
+.listConNav li{float:left; width:174px; height:40px; line-height:40px; text-align:center; margin-right:10px;}
+.listConNav li a{width:174px; height:40px;float:left; background:url(../images/list_con_nav_bg01.jpg); font-size:20px; color:#a2a2a2;}
+.listConNav .current a{background:url(../images/list_con_nav_bg02.jpg); color:#fff;}
+
+.listConIn dl{height:168px; border-bottom: 1px solid #e5e5e5; margin-top:32px; overflow:hidden;}
+.listConIn dl dt{float:left; width:230px; height:130px;}
+.listConIn dl dd{float:right; width:750px; height:178px;}
+.listConIn dd span{color:#000; font-size:18px; line-height:24px;}
+.listConIn dd h3{font-size:24px; line-height:40px; font-weight:normal;}
+.listConIn dd p{font-size:14px; line-height:20px; height:54px; padding-right:10px;}
+.listConIn dd a{color:#c7161c; font-size:14px;}
+.listConIn dd a:hover{text-decoration:underline;}
+
+.listCon_con li{ display: none;}
+.listCon_con li.current{ display: block;}
+
+
+.pageNum{width:420px; height:30px; margin:56px 0 40px auto;}
+.pageNum li{float:left; margin-right:3px; font-size:16px;}
+.pageNum li a{width:30px; height:30px; background:#e5e5e5; line-height:30px; text-align: center; display:block;}
+.pageNum li a:hover{color:#fff; background:#c7161c;}
+.pageNum .pl{width:35px; height:30px; background:#e5e5e5; line-height:30px; text-align: center; color:#ccc;}
+.pageNum .pr a{width:35px;}
+.pageNum .current a{background:#c7161c;color:#fff;}
+
+
+/* delCon */
+#delCon{width:1000px; margin:0 auto; padding-top:74px;}
+.titleInfo .time{height:26px; color:#000; font-size:18px;}
+.titleInfo h2{height:94px; color:#000; font-size:36px; font-weight:normal;}
+.titleInfo p{height:28px; border-bottom: 1px solid #ccc; font-size:14px; color:#868686; font-family:"宋体";}
+.titleInfo p a{color:#000;}
+.titleInfo p a:hover{ text-decoration:underline;}
+
+.article{padding:20px 10px 70px;}
+.article p{color:#000; line-height:26px; font-size:14px; margin-bottom:10px; text-indent:2em; font-family:"宋体";}
+.article p a{color:#485a90;}
+.article p a:hover{text-decoration:underline;}
+
+/*recruit-page*/
+.warpall {width: 1000px;margin: 0 auto;}
+.rec_1{ height:494px; padding-top:48px; background:url(../images/rec_1.jpg) no-repeat;}
+.rec_1 .info1{ width:800px; height:200px; text-align:center; padding-left:100px;}
+.rec_1 h2{ height:60px; line-height:60px; font-size:34px; color:#000000;}
+.rec_1 .info1 p{ line-height:32px; font-size:24px; color:#000000;}
+.rec_1 .info2{ width:400px; padding-left:473px; color:#606060;}
+.rec_1 .info2 .tit{ height:28px; line-height:28px; font-size:14px;}
+.rec_1 .info2 .words{ height:34px; line-height:34px; margin-bottom:10px; font-size:25px;}
+.rec_1 .info2 ul{ padding-top:6px;}
+.rec_3 .rec_tit span{ float:right; width:24px; height:45px; background: url(../images/updown.png); margin-top: 6px; margin-right: 20px; cursor:pointer;}
+.rec_3 .rec_tit h4{float: left;}
+
+.rec_2{ background: #f1f1f1;}
+.rec_2 .warpall{ height:186px; padding-top:73px; text-align:center;}
+.rec_2 h2{ height:56px; line-height:56px; font-size:34px; color:#000000;}
+.rec_2 p{ height:34px; line-height:34px; vertical-align:middle; font-size:18px; color:#000000;}
+.rec_2 img{ vertical-align:middle;}
+.rec_2 a,.rec_2 span{ color:#c7161c;}
+
+
+.rec_3{  padding:85px 0; overflow: hidden;}
+.rec_mod{ width:477px; background:#f1f1f1}
+.rec_mod1{ float:left;}
+.rec_mod2{ float:right;}
+.rec_mod h3{ height:66px; line-height:66px; text-align:center; font-size:25px; color:#ffffff;}
+.rec_mod1 h3{ background:#313131;}
+.rec_mod2 h3{ background:#c7161c;}
+.rec_list{ width:477px; padding-top:9px; background:#f1f1f1;}
+.rec_list li{ width:451px; padding-left:26px; border-bottom:1px solid #c8c8c8; position:relative; float:left;}
+.rec_tit{ height:60px; line-height:60px; font-size:18px; color:#000000;}
+.rec_cont{  display:none; line-height:20px; font-size:14px; padding-bottom:20px;}
+.rec_cont .tit{ height:30px; line-height:30px; margin-bottom:16px;}
+.rec_cont .info{ width:410px; padding-left:22px; line-height:20px; font-size:14px; color:#878787; margin-bottom:16px;}
+.rec_cont .info p{ text-indent:-22px;}
+.rec_list li.current .rec_cont{ display: block;}
+.rec_list li.current a{ background:url(../images/rec_down.jpg) no-repeat right; height: 45px; margin-top: -20px;}
+
+.rec_list a{ width:24px; height:10px; position:absolute; top:25px; right:22px;}
+.rec_list a{ background:url(../images/rec_up.jpg) no-repeat right; display:block; height:45px;margin-top:-20px;}
+.rec_list a.hide{ background:url(../images/rec_down.jpg) no-repeat right; height: 45px; margin-top: -20px;}
+
+
+
+.ser_2,.rec_2,.abo_3{ width:100%; min-width:1000px; background:#f1f1f1;}
+
+.abo_ban{ background: url(../images/about.jpg) no-repeat center 0;}
+.abo_1{ padding-top:85px; height:408px; background:url(../images/about_1.jpg) no-repeat;}
+.abo_1 h2{ height:58px; line-height:58px; font-size:34px; color:#000000; margin-bottom:16px;}
+.abo_1 .info1{ height:32px; line-height:32px; font-size:18px; color:#000000; margin-bottom:25px;}
+.abo_1 .info2{ width:658px; line-height:20px; font-size:14px; color:#606060;}
+.abo_1 .info2 p{ margin-bottom:16px;}
+
+
+.abo_2{ width:100%; min-width:1000px; background:url(../images/about_2.jpg) repeat-x;}
+.abo_2 .warpall{ padding-top:9px; height:55px;}
+.abo_2 h2{ width:200px; height:55px; line-height:55px; font-size:34px; color:#000000; float:left;}
+.abo_2 .years{ width:800px; height:55px; float:right; position:relative; }
+.years_warp{ position:absolute; right:0; top:0; z-index:1;overflow: hidden; height: 55px;width: 100%;}
+.years_in{position:absolute; overflow: hidden; width: 100%;}
+.years_info{ font-size:14px; line-height:55px; text-align:right; color:#606060;} 
+.years_info span{ font-size:30px; font-family:Verdana;}
+.years_nav{ height:17px; position:absolute; right:0; top:-9px; z-index:9;}
+.years_nav li{ width:17px; height:17px; margin-right:14px; float:left;}
+.years_nav li a{ width:17px; height:17px; display:block; background:url(../images/abo_point.jpg) no-repeat center;}
+.years_nav li.noopdiv a{ background:url(../images/abo_pointon.jpg) no-repeat;}
+.abo_3 .warpall{ padding-top:60px; height:684px;}
+.abo_3 h2{ height:58px; line-height:58px; font-size:34px; color:#000000; text-align:center;}
+.abo_3 .info{ height:32px; line-height:32px; text-align:center; font-size:22px; color:#c7161c; margin-bottom:37px;}
+.abo_list li{ width:180px; height:308px; padding:150px 34px 0 35px; float:left; margin-right:1px; display:inline;}
+.abo_list .tit{ height:88px; text-align:center; font-size:23px;}
+.abo_list .ch{ line-height:32px; color:#000000;}
+.abo_list .en{ line-height:36px; color:#5b5b5b; font-family:Verdana;}
+.abo_list .info{ line-height:20px; font-size:14px; color:#606060; text-align:left;}
+.abo_list li.s1{ background:url(../images/abo_t1.jpg) no-repeat top center #d7d7d7;}
+.abo_list li.s2{ background:url(../images/abo_t2.jpg) no-repeat top center #d7d7d7;}
+.abo_list li.s3{ background:url(../images/abo_t3.jpg) no-repeat top center #d7d7d7;}
+.abo_list li.s4{ background:url(../images/abo_t4.jpg) no-repeat top center #d7d7d7;}
+.abo_list li.s1:hover{ background:url(../images/abo_t1on.jpg) no-repeat top center #c7161c;}
+.abo_list li.s2:hover{ background:url(../images/abo_t2on.jpg) no-repeat top center #c7161c;}
+.abo_list li.s3:hover{ background:url(../images/abo_t3on.jpg) no-repeat top center #c7161c;}
+.abo_list li.s4:hover{ background:url(../images/abo_t4on.jpg) no-repeat top center #c7161c;}
+.abo_list li:hover .ch,.abo_list li:hover .en,.abo_list li:hover .info{ color:#fff;}
+.abo_4{ width:100%; min-width:1000px; background:url(../images/about_4.jpg) no-repeat center top;}
+.abo_4 .warpall{ height:210px; padding-top:282px; line-height:20px; font-size:14px; color:#606060;}
+
+
+/* ------------------------------------修改样式--------------------------------- */
+/* ------------------------------------首页------------------------------------ */
+/* 轮播图的修改样式 */
+.banner{ overflow: hidden; position: relative;}
+.banner ul{ width: 300%; height: 480px; background: pink; position: relative; left: 0; top: 0; cursor: pointer;}
+.banner ul li{ width: 33.33%; height: 480px; background: url(../images/banner01.jpg) no-repeat center top; float: left;}
+.banner ul li:nth-of-type(2){ background-image: url(../images/banner02.jpg)}
+.banner ul li:nth-of-type(3){ background-image: url(../images/banner03.jpg)}
+.banner ol li{ width: 18px; height: 18px; background: #CCCCCC; border-radius: 50%; display: inline-block; margin: 0 10px; cursor: pointer;}
+.banner ol{ text-align: center; margin: 25px 0 0;}
+.banner .curr{ background: #bb2b34; }
+.btns{ width: 1200px; height: 480px; position: absolute; left: 50%; top: 0; margin-left: -600px; color: #fff; font-size: 200px; font-family: "黑体";pointer-events:none;}
+.btns .prev{ float: left; pointer-events:auto;}
+.btns .next{ float: right; pointer-events:auto;}
+.btns span{ cursor: pointer; margin-top: 120px;}
+
+/* .conUp分区 */
+.conUp{ width: 1100px;}
+
+/* .subNavIn .top分区 */
+
+/* ---------------------------------listh列表------------------------------- */
+/* listBanner分区 */
+.listBanner{ width: 100%; height: 335px; background: url(../images/list_banner.jpg) no-repeat center top;}
+
+.listCon_con_item{ display: none;}
+.listCon_con_item.current{ display: block;}
+
+
+/* ---------------------------------detail列表------------------------------- */
+.titleInfo{position: relative;}
+.bdsharebuttonbox{ position: absolute; left: 432px; top: 112px;}
+
+
+/* ---------------------------------about列表------------------------------- */
+.aboutBanner{width: 100%; height: 335px; background: url(../images/about.jpg) no-repeat center top;}
+
+.tab_nav li{ width: 20px; height: 20px; background: #c7161c; border-radius: 50%; display: inline-block; margin: 0 10px; cursor: pointer; z-index:2}
+.tab_nav{ position: absolute; right: 0; top: -16px;}
+.years{ position: relative;}
+.tab_nav .current{ width: 24px; height: 24px; position: relative; top: 2px;}
+.years_warp{ z-index: 1;}
+
+/* ---------------------------------recruit列表------------------------------- */
+.rec_ban{width: 100%; height: 335px; background: url(../images/service.jpg) no-repeat center top;}
+.rec_list li.current span{ background: url(../images/rec_down.jpg) no-repeat left center;}
+
+
+
+
+
+
+

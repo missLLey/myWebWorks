@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS 准备工作 */
+*{ margin: 0; padding: 0; border: 0; list-style: none;}
+body{ background: #e5e5e5;font-size: 14px; color: #000; font-family: Microsoft yahei;}
+a{ text-decoration: none; color: #000;}
+a:hover{ text-decoration: underline;}
+
+/* 通用版心 */
+.banxin{ width: 960px; margin: 0 auto;}
+
+/* header分区 */
+.header{ height: 147px; background: url(../images/12306.jpg);}
+
+/* nav分区 */
+.nav{ height: 32px; background: #2492d1; line-height: 32px;}
+.date{ float:left; margin-left: 50px; color: #ffffff; font-size: 14px;}
+.nav-list{ float:right; width: 760px; height: 32px;}
+.nav-list li{ width: 95px; height: 32px; float:left; text-align:center}
+.nav-list li a{ color: #FFFFFF;}
+
+/* content分区 */
+.content{ height: 644px; background: #ffffff;}
+/* content-aside分区 */
+.aside{ width: 209px; height: 500px; background: #e7f1fa; margin-top: 10px; margin-left: 10px; float:left;}
+figcaption img{  display: block;}
+figure{ width: 207px; height: 149px; border: 1px solid #dedfe1; text-align:center; background: white;}
+.aside h3{ width: 207px; height: 30px; background: #fafafa; border: 1px solid #9caebc; margin-top:6px; text-align:center; line-height: 30px; font-weight: normal; font-size: 14px;}
+.aside h3 a{ color: #0d4de6;}
+
+/* content-article分区 */
+.article{ width: 710px; height: 634px; margin: 10px 10px 0 0px; float:right;}
+.top{ width: 710px; height: 30px;line-height: 30px; background: #f2f9ff url(../images/dot.jpg) no-repeat 15px center ; border-radius: 4px; text-indent: 30px;}
+.article-list{ width: 680px; margin-left: 15px; line-height: 30px;}
+.article-list li{ border-bottom: 1px dashed #000; background: url(../images/pot.jpg) no-repeat left center; text-indent: 15px;}
+
+.bottom{ width: 710px; height: 30px;line-height: 30px; text-align: center; background: #f2f9ff; margin-top: 10px;}
+
+/* footer分区 */
+.footer{ height: 100px; background: #FFFFFF; border-top: 2px solid #303d46; border-bottom: 1px solid #303d46; padding-top: 24px; line-height: 20px; color: #151c2f; font-size: 14px; text-align: center;}
+

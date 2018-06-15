@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 准备工作 */
+*{ margin: 0; padding: 0; border: 0; list-style: none;}
+body{ background: #fbfbfb; font-size: 14px; font-family: "宋体"; color: #666;}
+a{ text-decoration: none; color: #666;}
+a:hover{ text-decoration: underline;}
+
+/* 版心通用 */
+.banxin{ width: 940px; margin: 0 auto;}
+
+/* header分区 */
+.header{ height: 86px;}
+.logo{ float: left; width: 206px; height: 50px; margin-top: 20px; margin-left: 15px;}
+
+/* nav分区 */
+.nav{ float: right; width: auto; height: 22px; margin-top: 44px; line-height: 22px;}
+.nav li{ float:left; text-align: center; font-size: 16px;}
+
+
+/* section分区 */
+.content{ width: 923px; height: 441px; background: #ffffff; border: 8px solid #f2f2f2;}
+.article{ float:left; width: 491px; height: 386px; margin-left: 75px;}
+.top{ width: 491px; height: 75px; border-bottom: 2px solid #e7e7e7; line-height: 75px; font-size: 26px; font-family: Microsoft yahei;}
+.center .user{ width: 306px; height: 60px;}
+.center .user p{ font-size: 16px; height: 26px; line-height: 26px;}
+.center .user input{ width: 303px; height: 32px; border: 1px solid #c6ced6;}
+.center .password{ width: 306px; height: 60px; margin-top: 15px;}
+.center .password p{ font-size: 16px; height: 26px; line-height: 26px;}
+.center .password input{ width: 303px; height: 32px; border: 1px solid #c6ced6;}
+.center .checkbox{ line-height: 32px; margin-top: 15px;}
+.center .checkbox a{ color:#3e8be7; text-decoration: underline;}
+.center .box{ width: 491px; height: 82px; border-bottom: 1px solid #e7e7e7;}
+.content .land{ width: 174px; height: 42px; margin-top: 15px; background: #3a90d7; border-radius: 2px; text-align: center; line-height: 42px; color:#fff; font-size: 24px;}
+.center .link{ width: 320px; height: 26px; margin-top: 20px; line-height: 26px; font-family: Microsoft yahei; font-size: 12px; color: #000; font-weight: bold;}
+.center .link span{ float: left;}
+.center .link div:nth-of-type(1){ margin-left: 10px; float: left;width: 81px; height: auto; line-height: 26px; background: url(../images/qq.png) no-repeat left center; text-indent: 30px;}
+.center .link div:nth-of-type(2){ margin-left: 30px; float: left;width: 81px; height: auto; line-height: 26px; background: url(../images/weibo.png) no-repeat left center; text-indent: 30px;}
+
+
+.aside{ float:left; width: 277px; height: 380px; border-left: 2px solid #f3f3f3; margin-left: 77px; margin-top: 30px; text-align: center;}
+.aside p{ margin-top: 125px;  font-family: Microsoft yahei; font-size: 20px;}
+.aside input{ width: 132px; height: 40px; border: 1px solid #b5b5b5; font-size: 18px; text-align: center; line-height: 40px; background: #f0f4f7; margin-top: 27px;}
+
+/* footer分区 */
+.footer{ height: 138px; text-align: center; padding-top: 60px; box-sizing: border-box;}
+.footer p{ line-height: 20px; }
+.footer p:nth-of-type(2){ color: #a599b1; font-family: Microsoft yahei;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

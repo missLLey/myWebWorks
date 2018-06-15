@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav .logo{ width: 50%; height: auto;}
+.nav .logo img{ width: 100%; height:auto;}
+
+.banner img:nth-of-type(2){ display: block;}
+.banner img:nth-of-type(1){ display: none; width: 100%; height: auto;}
+
+.newsIn .newsList a{ display: none;}
+.newsIn .newsList h3{ background: none; color: #fff; font-size: 20px;}
+
+.content div{ width: 100%; height:auto; padding-bottom: 20px;}
+.content p a{ font-size: 26px;}
+.content p span{ font-size: 24px;}
+.content .center{ margin: 0;}
+
+.subNav dl{ margin: 0; width: 100%;}
+.subNav .one{ margin: 0;}
+.map{ display: none;}
+.subNav dl dd{ display: none;}
+.subNav dl dt{ width: 100%; height: 60px; border-bottom: 1px solid #CCCCCC; line-height: 60px; font-size: 26px; text-indent: 1em; position: relative;}
+.subNav dl dt::after{ content:""; width: 40px; height: 40px; position: absolute; right: 20px; top: 50%; margin-top: -20px; background: url(../images/subnav_phone_bg.png) no-repeat center;}
+
+.footer{ font-size: 22px; line-height: 2em;}
+.footer .p2{ text-align: center;}
+
+
+

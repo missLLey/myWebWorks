@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>163官网首页</title>
+<style>
+*{ margin: 0; padding: 0; border: 0; list-style: none;}
+body{ font-family: "宋体"; font-size: 12px; color: #9a9a9a; background: #f1f1f1;}
+a{ text-decoration: none; color: #9a9a9a;}
+a:hover{ text-decoration: underline;}
+
+.header{ width: 960px; height: 80px; margin: 0 auto;}
+.logo{ float: left; margin-top: 20px;}
+.link{ width: 83px; height: 16px; float:right; text-align: center; line-height: 16px; margin-top: 27px; margin-right: 18px;}
+.link a{ color: #3f4c6c;}
+
+.content{ width: 960px; height: 540px; margin: 0 auto;}
+.top{ height: 44px; background: url(images1/top-bg.jpg) repeat; border-radius: 7px 7px 0 0; }
+.top img{ float: left; margin-top: 8px; margin-left: 10px;}
+.top p{ float: left; color: #dbffff; line-height: 44px; font-size: 16px; margin-left: 17px;}
+.center{width: 958px; height: 494px; background: white; border: 1px solid #ccc;}
+.box{ width: 570px; height: 450px; margin-top: 44px; margin-left: 218px;}
+.list{ height: 28px; line-height: 28px;}
+.list dt{ width: 70px; height: 28px; float: left; text-align:right; color: #000;}
+.list dt span{ color: red;}
+.list .one .input{ width: 196px; height: 26px; float: left; margin-left: 11px; border: 1px solid #ccc;}
+.list .input{width: 310px; height: 26px; float: left; margin-left: 11px; border: 1px solid #ccc;}
+.list select{ border: 1px solid #ccc;}
+.list .picture{ margin-left: 5px;}
+.tishi{ height: 36px; margin-left: 80px; line-height: 36px;}
+.service{ margin-left: 80px; margin-top: 20px;}
+.service a{ color: #3f4d6a;}
+.bottom{ margin-top: 37px; margin-left: 80px;}
+
+.footer{ width: 960px; height: 80px; margin: 0 auto; text-align: center; margin-top: 18px;}
+</style>
+</head>
+
+<body>
+<header class="header">
+	<h1 class="logo"><a href="#"><img src="images1/logo.jpg" alt=""></a></h1>
+    <p class="link">
+    <a href="#">反馈帮助</a> <a href="#">意见</a>
+    </p>
+</header>
+<section class="content">
+	<div class="top">
+    <img src="images1/tubiao.jpg" alt="">
+    <p>欢迎注册网易免费邮！您可以选择注册163、126、yeah.net三大免费邮箱。</p>
+    </div>
+    <div class="center">
+    	<div class="box">
+        	<dl class="list">
+            	<dt><span>*</span> 邮件地址</dt>
+                <dd class="one">
+                	<input class="input"  type="text" placeholder="建议输入手机号码注册">
+                    </dd>
+                    &nbsp;@
+                    <select>
+                    	<option>163.com</option>
+                    </select>
+            </dl>
+            <div class=" tishi">6-18个字符，可使用字母、数字、下划线。推荐以手机号码直接注册</div>
+        	<dl class="list">
+            	<dt><span>*</span> 密码</dt>
+                <dd>
+                	<input class="input"  type="text">
+                    </dd>
+            </dl>
+            <div class=" tishi">6~16个字符，区分大小写</div>
+        	<dl class="list">
+            	<dt><span>*</span> 确认密码</dt>
+                <dd>
+                	<input class="input"  type="text">
+                </dd>
+            </dl>
+            <div class=" tishi">请再次输入密码</div>
+        	<dl class="list">
+            	<dt><span>*</span> 电话</dt>
+                <dd>
+                	<input class="input"  type="text">
+                    </dd>
+            </dl>
+            <div class=" tishi">密码遗忘或被盗时，可通过手机短信取回密码</div>
+        	<dl class="list">
+            	<dt><span>*</span> 验证码</dt>
+                <dd>
+                	<input class="input" type="text">
+                </dd>
+                <img class="picture" src="images1/yanzhengma.jpg" alt="">
+            </dl>
+            <div class=" tishi">请输入正确的验证码</div>
+            <div class="service">
+            	<input type="checkbox"> &nbsp;同意<a href="#">“服务条款”</a>和<a href="#">“隐私权保护和个人信息利用政策”</a>
+            </div>
+            <img class="bottom" src="images1/buttom.jpg" alt="">
+        </div>
+    </div>
+</section>
+<footer class="footer">
+	<a href="#">关于网易</a>
+    <a href="#">关于网易免费邮</a>
+    <a href="#">邮箱官方博客</a>
+    <a href="#">客户服务</a>
+    <a href="#">隐私政策</a>
+    | 网易公司版权所有 &copy; 1997-2017
+</footer>
+</body>
+</html>
